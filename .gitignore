@@ -2,7 +2,4 @@
 node_modules/
 npm-debug.log
 .idea/
-_book
-promise/
-test/
-bundler.config.js
+dist/
