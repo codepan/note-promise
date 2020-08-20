@@ -5,14 +5,13 @@
   "author": "codepan",
   "license": "MIT",
   "scripts": {
-    "dev": "gitbook serve ./src ./book",
-    "build": "node build.js",
-    "deploy": "node deploy.js"
+    "dev": "node scripts/dev.js",
+    "build": "node scripts/build.js",
+    "deploy": "node scripts/deploy.js"
   },
   "dependencies": {
     "chalk": "^2.4.2",
     "ftp": "^0.3.10",
-    "gitbook-cli": "^2.3.2",
     "gulp": "^4.0.2",
     "gulp-clean-css": "^4.2.0",
     "gulp-htmlmin": "^5.0.1",
